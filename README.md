@@ -14,8 +14,11 @@ Related Articles:
 
 ## Installation
 
+Clone this repo, and then copy the contents (including the hidden `.gitignore` file) into the root directory of your plugin via:
+
 ```
-composer require nystudio107/craft-plugin-vite-buildchain
+git clone https://github.com/nystudio107/craft-plugin-vite-buildchain.git
+cp craft-plugin-vite-buildchain/* path/to/plugin/dir
 ```
 
 ## Craft Plugin Vite Buildchain Overview
