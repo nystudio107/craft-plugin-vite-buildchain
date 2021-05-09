@@ -2,14 +2,23 @@
 
 # Craft Plugin Vite Buildchain
 
+Related Articles:
+
+[Vite.js Next Generation Frontend Tooling + Craft CMS](https://nystudio107.com/blog/using-vite-js-next-generation-frontend-tooling-with-craft-cms)
+
+[A Vite Buildchain for Craft CMS Plugins](https://nystudio107.com/blog/a-vite-buildchain-for-craft-cms-plugins)
+
 ## Requirements
 
 * Craft CMS 3.0.0 or later
 
 ## Installation
 
+Clone this repo, and then copy the contents (including the hidden `.gitignore` file) into the root directory of your plugin via:
+
 ```
-composer require nystudio107/craft-plugin-vite-buildchain
+git clone https://github.com/nystudio107/craft-plugin-vite-buildchain.git
+cp craft-plugin-vite-buildchain/* path/to/plugin/dir
 ```
 
 ## Craft Plugin Vite Buildchain Overview
