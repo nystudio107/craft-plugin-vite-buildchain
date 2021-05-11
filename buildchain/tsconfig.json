@@ -11,7 +11,7 @@
     "moduleResolution": "node",
     "noEmit": true,
     "noImplicitAny": true,
-    "outDir": "../src/web/assets/dist",
+    "outDir": "./dist",
     "paths": {
       "@/*": [
         "./src/*"
