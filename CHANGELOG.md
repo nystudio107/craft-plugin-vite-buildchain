@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.2 - 2021.05.14
+### Changed
+* Refactored to a more flexible directory structure
+
 ## 1.0.1 - 2021.05.11
 ### Changed
 * Updated to Vite 2.3.0
