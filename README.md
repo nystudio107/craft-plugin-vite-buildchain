@@ -18,7 +18,7 @@ Clone this repo, and then copy the contents (including the hidden `.gitignore` f
 
 ```
 git clone https://github.com/nystudio107/craft-plugin-vite-buildchain.git
-cp -r craft-plugin-vite-buildchain/* path/to/plugin/dir/
+cp -r craft-plugin-vite-buildchain/buildchain path/to/plugin/dir/
 cp craft-plugin-vite-buildchain/.gitignore path/to/plugin/dir/
 ```
 
