@@ -22,6 +22,12 @@ git clone https://github.com/nystudio107/craft-plugin-vite-buildchain.git
 
 It's done this way as a "starter" rather than as a package, because every plugin/module will make bespoke changes to it.
 
+**N.B.:** If you won't be using this buildchain with the [plugindev](https://github.com/nystudio107/plugindev) local development environment, you'll need to delete this line from the `Makefile`:
+```
+	--network plugindev_default \
+```
+...so that it won't be looking for that Docker network.
+
 ## Craft Plugin Vite Buildchain Overview
 
 Craft Plugin Vite Buildchain is a drop-in buildchain you can use in your Craft CMS plugins and modules, giving you Hot Module Replacement, Tailwind CSS, and optimized production builds.
