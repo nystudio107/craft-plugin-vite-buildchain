@@ -26,7 +26,7 @@ It's done this way as a "starter" rather than as a package, because every plugin
 ```
 	--network plugindev_default \
 ```
-...so that it won't be looking for that Docker network.
+...so that it won't be looking for the `plugindev_default` Docker network.
 
 ## Craft Plugin Vite Buildchain Overview
 
