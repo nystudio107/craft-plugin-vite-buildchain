@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.3 - 2021.07.22
+### Added
+* Added the Static Asset Fixer plugin (https://github.com/vitejs/vite/issues/2394)
+
 ## 1.0.2 - 2021.05.14
 ### Changed
 * Refactored to a more flexible directory structure
