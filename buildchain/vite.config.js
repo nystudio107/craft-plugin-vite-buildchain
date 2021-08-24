@@ -9,7 +9,7 @@ export default ({ command }) => ({
   build: {
     emptyOutDir: true,
     manifest: true,
-    outDir: './src/web/assets/dist',
+    outDir: '../src/web/assets/dist',
     rollupOptions: {
       input: {
         app: './src/js/app.ts',
@@ -45,7 +45,7 @@ export default ({ command }) => ({
       },
     },
   ],
-  publicDir: './src/web/assets/public',
+  publicDir: '../src/web/assets/public',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
