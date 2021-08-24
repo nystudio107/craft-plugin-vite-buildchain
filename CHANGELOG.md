@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.4 - 2021.08.24
+### Fixed
+* Updated to work with CommonJS imports via `input: ./`
+
 ## 1.0.3 - 2021.07.22
 ### Added
 * Added the Static Asset Fixer plugin (https://github.com/vitejs/vite/issues/2394)
