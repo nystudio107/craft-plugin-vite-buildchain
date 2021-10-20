@@ -32,18 +32,6 @@ export default ({ command }) => ({
       ],
     }),
     vue(),
-    // Static Asset Fixer, see: https://github.com/vitejs/vite/issues/2394
-    {
-      name: 'static-asset-fixer',
-      enforce: 'post',
-      apply: 'serve',
-      transform: (code, id) => {
-        return {
-          code: code.replace(/\/src\/(.*)\.(svg|jp?g|png|webp)/g, 'http://localhost:3000/src/$1.$2'),
-          map: null,
-        }
-      },
-    },
   ],
   publicDir: '../src/web/assets/public',
   resolve: {
@@ -52,6 +40,7 @@ export default ({ command }) => ({
     },
   },
   server: {
+    origin: 'http://localhost:3001/src/',
     host: '0.0.0.0',
     port: 3001,
     strictPort: true,
