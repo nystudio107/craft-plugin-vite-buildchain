@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.5 - 2021.10.20
+### Changed
+* Remove Static Asset Fixer plugin, use server.origin in Vite ^2.6.0
+
 ## 1.0.4 - 2021.08.24
 ### Fixed
 * Updated to work with CommonJS imports via `input: ./`
