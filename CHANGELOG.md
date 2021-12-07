@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.6 - 2021.12.06
+### Changed
+* Update to use Vite `^2.7.0-beta.10`
+
 ## 1.0.5 - 2021.10.20
 ### Changed
 * Remove Static Asset Fixer plugin, use server.origin in Vite ^2.6.0
