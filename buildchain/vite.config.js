@@ -38,10 +38,14 @@ export default ({ command }) => ({
     alias: {
       '@': path.resolve(__dirname, './src')
     },
+    preserveSymlinks: true,
   },
   server: {
-    origin: 'http://localhost:3001/src/',
+    fs: {
+      strict: false
+    },
     host: '0.0.0.0',
+    origin: 'http://localhost:3001/',
     port: 3001,
     strictPort: true,
   }
