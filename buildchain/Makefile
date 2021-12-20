@@ -1,4 +1,4 @@
-TAG?=14-alpine
+TAG?=16-alpine
 CONTAINER?=$(shell basename $(dir $(CURDIR)))-buildchain
 DOCKERRUN=docker container run \
 	--name ${CONTAINER} \
@@ -6,7 +6,7 @@ DOCKERRUN=docker container run \
 	-t \
 	--network plugindev_default \
 	-p 3001:3001 \
-	-v `pwd`/../:/app \
+	-v "${CURDIR}"/../:/app \
 	${CONTAINER}:${TAG}
 
 .PHONY: build dev docker install npm
