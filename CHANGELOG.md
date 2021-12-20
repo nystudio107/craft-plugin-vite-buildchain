@@ -1,5 +1,12 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.7 - 2021.12.20
+### Changed
+* Switch to Node 16 via `16-alpine` Docker tag by default
+
+### Fixed
+* Use `${CURDIR}` instead of `pwd` to be cross-platform compatible with Windows WSL2
+
 ## 1.0.6 - 2021.12.06
 ### Changed
 * Update to use Vite `^2.7.0-beta.10`
