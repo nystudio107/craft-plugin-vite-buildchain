@@ -1,5 +1,9 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.8 - 2021.12.21
+### Changed
+* Update to Tailwind CSS `^3.0.0`
+
 ## 1.0.7 - 2021.12.20
 ### Changed
 * Switch to Node 16 via `16-alpine` Docker tag by default
