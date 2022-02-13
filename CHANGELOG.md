@@ -1,5 +1,13 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.9 - 2022.02.13
+### Added
+
+* Add `.gitattributes` & `CODEOWNERS`
+* Add linting to build
+* Add compression of assets
+* Add bundle visualizer
+
 ## 1.0.8 - 2021.12.21
 ### Changed
 * Update to Tailwind CSS `^3.0.0`
