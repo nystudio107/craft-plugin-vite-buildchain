@@ -1,5 +1,12 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.10 - 2022.05.02
+### Changed
+* Ignore `max-line-length` rule
+
+### Fixed
+* Fix eslint errors pinning `vite-plugin-eslint` to `1.3.0`
+
 ## 1.0.9 - 2022.02.13
 ### Added
 
