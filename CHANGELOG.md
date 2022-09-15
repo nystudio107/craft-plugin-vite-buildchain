@@ -1,5 +1,11 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.11 - 2022.09.14
+### Changed
+* Use Vite `^3.1.0`
+* Add comments to Makefile for Fig
+* Remove `vite-plugin-manifest-sri` & `vite-plugin-eslint`
+
 ## 1.0.10 - 2022.05.02
 ### Changed
 * Ignore `max-line-length` rule
