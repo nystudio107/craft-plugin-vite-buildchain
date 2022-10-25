@@ -44,11 +44,14 @@ export default defineConfig(({command}) => ({
       sourcemap: true,
     }),
   ],
+  optimizeDeps: {
+    include: ['vue-confetti'],
+  },
   publicDir: '../src/web/assets/public',
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
-    },
+    alias: [
+      {find: '@', replacement: path.resolve(__dirname, '../src/web/assets/src')},
+    ],
     preserveSymlinks: true,
   },
   server: {
