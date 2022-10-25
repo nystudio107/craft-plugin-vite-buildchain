@@ -1,5 +1,10 @@
 # Craft Plugin Vite Buildchain
 
+## 1.0.12 - 2022.10.25
+### Changed
+* Fixed HMR in local dev with explicit alias that resolves to the actual directory
+* Add `optimizeDeps` for non-ESM modules
+
 ## 1.0.11 - 2022.09.14
 ### Changed
 * Use Vite `^3.1.0`
