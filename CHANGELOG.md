@@ -1,5 +1,11 @@
 # Craft Plugin Vite Buildchain
 
+## 1.1.0 - 2023.02.12
+### Changed
+* Updated the buildchain to use Vite `^4.0.0`
+* Use dynamic docker container name & port for the `buildchain`
+* Move the frontend `src/` dir from `../src/web/assets/src/` to the buildchain root, to avoid issues with various packages like eslint, stylelint, etc. from finding our source properly
+
 ## 1.0.12 - 2022.10.25
 ### Changed
 * Fixed HMR in local dev with explicit alias that resolves to the actual directory
